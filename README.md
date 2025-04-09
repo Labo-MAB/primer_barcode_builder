@@ -58,6 +58,15 @@ KMER_SIZE = 10  # Size of k-mers to check for duplicates in barcodes
 output_dir = "work_repertory"  # Directory for saving results (change to desired output location)
 BLAST_DB = os.path.join(output_dir, "genome_db", "viral_sequences")  # Path to the BLAST database
 E_VALUE_CUTOFF = 0.1  # E-value threshold for BLAST search (controls similarity rejection)
+
+# === Primer Generation Parameters ===
+PRIMER_SIZE = 20  # (Fw & Rv) Primer size in nucleotides
+PRIMER_MIN_SIZE = 18  # Minimum primer size (can be adjusted)
+PRIMER_MAX_SIZE = 22  # Maximum primer size (can be adjusted)
+PRIMER_OPT_TM = 60.0  # Optimal melting temperature (Tm) for primers (in °C)
+PRIMER_MIN_TM = 57.0  # Minimum allowed melting temperature (Tm) for primers
+PRIMER_MAX_TM = 63.0  # Maximum allowed melting temperature (Tm) for primers
+PRIMER_NUM_RETURN = 1  # Number of primer pairs to return per primer design step
 ```
 
 ## Requirements
