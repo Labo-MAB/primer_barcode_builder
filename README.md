@@ -1,6 +1,6 @@
 # DNA Barcode Generator with Primer3 and BLAST
 
-### Author: Anthony Glaude from Labo-MAB by Pre. Brunet
+### Author: Anthony Glaude from Labo-MAB, Pre. Brunet
 
 ## Overview
 
