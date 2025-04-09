@@ -33,7 +33,7 @@ This script relies on a **BLAST database** of viral genome sequences. By default
 
 ### Creating the BLAST Database
 
-1. **Download your genome sequences**: You will need a FASTA file containing the genome sequences (e.g., `genome_sequences.fasta`). These sequences can be viral or any other type depending on your needs. You can obtain genome sequences from various sources, such as [NCBI GenBank](https://www.ncbi.nlm.nih.gov/genbank/).
+1. **Download your genome sequences**: You will need a FASTA file containing the genome sequences (e.g., `genome_for_db.fasta`). These sequences can be viral or any other type depending on your needs. You can obtain genome sequences from various sources, such as [NCBI GenBank](https://www.ncbi.nlm.nih.gov/genbank/).
 
 2. **Create the BLAST database**:
    To create the BLAST database from your FASTA file, use the `makeblastdb` command. This will index your genome sequences for use in BLAST searches.
