@@ -33,7 +33,7 @@ This script relies on a **BLAST database** of viral genome sequences. By default
 
 ### Creating the BLAST Database
 
-1. **Download your genome sequences**: You will need a FASTA file containing the genome sequences (e.g., `genome_for_db.fasta`). These sequences can be viral or any other type depending on your needs. You can obtain genome sequences from various sources, such as [NCBI GenBank](https://www.ncbi.nlm.nih.gov/genbank/).
+1. **Download your genome sequences**: You will need a FASTA file containing the genome sequences (e.g., `my_viruses.fasta`). These sequences can be viral or any other type depending on your needs. You can obtain genome sequences from various sources, such as [NCBI GenBank](https://www.ncbi.nlm.nih.gov/genbank/).
 
 2. **Create the BLAST database**:
    To create the BLAST database from your FASTA file, use the `makeblastdb` command. This will index your genome sequences for use in BLAST searches.
@@ -41,7 +41,7 @@ This script relies on a **BLAST database** of viral genome sequences. By default
    Run the following command in your terminal:
 
    ```bash
-   makeblastdb -in genome_for_db.fasta -dbtype nucl -out genome_db/viral_sequences
+   makeblastdb -in my_viruses.fasta -dbtype nucl -out genome_db/viral_sequences
 ## Configuration Parameters
 
 Below are the main configuration settings you can modify in the script to customize the primer generation and barcode assembly process:
